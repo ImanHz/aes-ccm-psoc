@@ -8,7 +8,7 @@ Modified AES-128 CCM code for working with Cypress PSOC 4 encoding functions. Ba
  * AAD is not used in PSOC decoding functions and according to its docs a 1 bytes should be used
  * Plaintext is the raw data. Its size is limited to 27 bytes in PSOC functions.
  
- Here I use OpenSSL library. To install it on linux use:
+ Here I use OpenSSL library. To install it on linux do the followings:
  
  1. Install the library:
  sudo apt install libss-dev
